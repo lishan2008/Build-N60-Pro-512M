@@ -490,3 +490,24 @@ index 1e23c7d..5586e2e 100644
 +  ARTIFACT/bl31-uboot.fip := mt7986-bl31-uboot netcore_n60-pro
 +endef
 +TARGET_DEVICES += netcore_n60-pro-512rom
+
+diff --git a/target/linux/mediatek/filogic/base-files/lib/upgrade/platform.sh b/target/linux/mediatek/filogic/base-files/lib/upgrade/platform.sh
+index 9e29f94..c8fdf2f 100644
+--- a/target/linux/mediatek/filogic/base-files/lib/upgrade/platform.sh
++++ b/target/linux/mediatek/filogic/base-files/lib/upgrade/platform.sh
+@@ -109,6 +109,7 @@ platform_do_upgrade() {
+ 	openwrt,one|\
+ 	netcore,n60|\
+ 	netcore,n60-pro|\
++	netcore,n60-pro-512rom|\
+ 	qihoo,360t7|\
+ 	routerich,ax3000-ubootmod|\
+ 	routerich,be7200|\
+@@ -299,6 +300,7 @@ platform_check_image() {
+ 	netis,nx32u|\
+ 	openwrt,one|\
+ 	netcore,n60|\
++	netcore,n60-pro-512rom|\
+ 	qihoo,360t7|\
+ 	routerich,ax3000-ubootmod|\
+ 	tplink,tl-xdr4288|\
