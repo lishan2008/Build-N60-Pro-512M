@@ -321,7 +321,7 @@ index 0000000..4444f7a
 +
 +			partition@580000 {
 +				label = "ubi";
-+				reg = <0x0580000 0x1fa80000>;
++				reg = <0x0580000 0x1ea00000>;
 +				compatible = "linux,ubi";
 +
 +				volumes {
@@ -463,7 +463,7 @@ diff --git a/target/linux/mediatek/image/filogic.mk b/target/linux/mediatek/imag
 index 1e23c7d..5586e2e 100644
 --- a/target/linux/mediatek/image/filogic.mk
 +++ b/target/linux/mediatek/image/filogic.mk
-@@ -2222,6 +2222,31 @@ define Device/netcore_n60-pro
+@@ -2406,6 +2406,31 @@ define Device/netcore_n60-pro
  endef
  TARGET_DEVICES += netcore_n60-pro
  
