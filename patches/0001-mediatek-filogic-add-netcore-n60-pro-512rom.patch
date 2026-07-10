@@ -491,6 +491,3 @@ index 1e23c7d..5586e2e 100644
 +endef
 +TARGET_DEVICES += netcore_n60-pro-512rom
 +
- define Device/netcraze_nc-1812
-   DEVICE_VENDOR := Netcraze
-   DEVICE_MODEL := NC-1812
