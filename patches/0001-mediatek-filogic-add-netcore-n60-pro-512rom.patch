@@ -490,4 +490,3 @@ index 1e23c7d..5586e2e 100644
 +  ARTIFACT/bl31-uboot.fip := mt7986-bl31-uboot netcore_n60-pro
 +endef
 +TARGET_DEVICES += netcore_n60-pro-512rom
-+
