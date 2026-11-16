@@ -10,7 +10,7 @@ on:
       - ".github/workflows/n60-pro-512rom.yml"
       - "configs/**"
       - "patches/**"
-      - "README.md"
+      - "diy-part1.sh"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
