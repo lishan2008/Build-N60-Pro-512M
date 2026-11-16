@@ -20,6 +20,7 @@ env:
   OPENWRT_REPO: https://github.com/fanchmwrt/fanchmwrt.git
   OPENWRT_REF: v25.12.6
   CONFIG_FILE: configs/netcore_n60-pro-512rom.config
+  DIY_P1_SH: diy-part1.sh
   PATCH_FILE: patches/0001-mediatek-filogic-add-netcore-n60-pro-512rom.patch
   TZ: Asia/Shanghai
 
